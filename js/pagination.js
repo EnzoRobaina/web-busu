@@ -11,7 +11,7 @@ new fullpage('#fullpage', {
 	navigationTooltips: ['Principal', 'Features', 'Sobre', 'Parcerias', 'Aplicação'],
 	showActiveTooltip: true,
     slidesNavigation: true,
-    //Posição do 'carousel'
+    //Posição do menu do carousel
     slidesNavPosition: 'bottom',
     //Arrastar com o mouse ou dedo (Necessita de licenseKey)
     dragAndMove: true,
