@@ -233,12 +233,19 @@ html{
     }
 }
 #paginaFeatures{
-    background: url(../img/bgPage2.png) center top;
+	background: url(../img/bgPage2.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+	#paginaFeatures{
+		background: url(../img/bgPage2.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
 .titulo{
     padding-top: 1%;
     text-transform: uppercase;
@@ -257,9 +264,17 @@ html{
 	font-weight: 600;
 	margin-bottom: 3%;
 }
+
 .imgWrapper{
-    width:40%
+	width:20%
 }
+
+@media screen and (max-width: 768px) {
+	.imgWrapper{
+		width:40%
+	}
+}
+
 .subTitulo{
     margin-left:3%;
     margin-right:3%;
@@ -273,19 +288,46 @@ html{
 	margin-bottom: 3%;
 	/* line-height: 40px; */
 }
+
 .smLegenda{
     word-break: word;
     font-family: 'Montserrat', sans-serif;
 	font-size: 100%;
 	letter-spacing: 1.5px;
-	color: #829db2;
+	color:white;
 	line-height: 20px;
     margin: 0 0;
     padding-bottom: 3%;
 }
+
 .featureBg{
     background-color:white;
 }
+
 .legendImg{
     padding-bottom:5%;
 }
+<<<<<<< HEAD
+=======
+
+.tituloFeatures{
+	padding-top:25px;
+}
+
+.fp-tableCellCustom {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+	height: 100%;
+	padding-bottom: 25%;
+	
+}
+@media screen and (max-width: 640px) {
+	.fp-tableCellCustom{
+		padding-bottom: 50%;
+	}
+
+}
+
+
+>>>>>>> Realiza melhorias de responsividade na segunda página
