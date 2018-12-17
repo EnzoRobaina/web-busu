@@ -9,8 +9,8 @@ new fullpage('#fullpage', {
     navigationPosition: 'right',
     //Legenda para as páginas, no menu lateral
 	navigationTooltips: ['Principal', 'Features', 'Sobre', 'Parcerias', 'Aplicação'],
-	showActiveTooltip: true,
-    slidesNavigation: true,
+	showActiveTooltip: false,
+    slidesNavigation: false,
     //Posição do menu do carousel
     slidesNavPosition: 'bottom',
     //Arrastar com o mouse ou dedo (Necessita de licenseKey)

@@ -274,7 +274,42 @@ html{
 		width:40%
 	}
 }
+/* media para mostrar slides somente para resolucoes < 1024px*/
+@media (min-width: 1024px) {
+	.fp-next{
+		display:none;
+	}
+	.fp-prev{
+		display:none;
+	}
+	.fp-slidesContainer{
+	  display:none;
+	}
+}
+/* media para esconder a exibição desktop para resoluções < 1024px*/
+@media (max-width: 1024px) {
+	.featuresDesktopImgWrapper{
+		display: none;
+	}
+}
+.featuresDesktopImgWrapper{
+	
+	/* background-color:white; */
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	width: 80%;
+}
 
+.roundedLeft{
+	border-radius: 100px, 0, 0, 100px !important;
+}
+
+.roundedRight{
+	border-radius: 0, 100px, 100px, 0 !important;
+}
+
+  
 .subTitulo{
     margin-left:3%;
     margin-right:3%;
