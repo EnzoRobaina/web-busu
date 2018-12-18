@@ -97,6 +97,7 @@ html{
   
 /*-- Pagina 3 --*/
 #page3{
+    background-color: #D8E0E6;
     padding: 0% 10% 15% 10%;
 }
 .imagem3{
@@ -345,8 +346,6 @@ html{
 .legendImg{
     padding-bottom:5%;
 }
-<<<<<<< HEAD
-=======
 
 .tituloFeatures{
 	padding-top:25px;
@@ -368,4 +367,3 @@ html{
 }
 
 
->>>>>>> Realiza melhorias de responsividade na segunda página
