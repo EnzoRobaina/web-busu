@@ -1,4 +1,9 @@
-#navbar {
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar{
     background:#416c94;
     color: white;
 }
@@ -90,3 +95,140 @@
     }
 }
   
+/*-- Pagina 3 --*/
+#page3{
+    padding: 0% 10% 15% 10%;
+}
+.imagem3{
+    text-align: left;
+    margin: auto;
+}.imagem3 img{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    min-width: 300px;
+    padding-top: 18%;
+    
+}
+.texto{
+    text-align: left;
+    padding-top: 15%;
+    
+}
+.texto h6{
+    text-transform: uppercase;
+	color: #00cff7;
+	letter-spacing: 4.5px;
+	font-size: 12pt;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+.texto h2{
+    font-family: 'Source Serif Pro', serif;
+	font-size: 40pt;
+	letter-spacing: 1.5px;
+	color: #1f3c47;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+.texto p{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	color: #829db2;
+    line-height: 30px;
+    padding-top: 4%;
+}
+
+
+/*-- Pagina 4 --*/
+
+
+#page4{
+    padding: 0% 10% 15% 10%;
+}
+
+#container-logos{
+    margin: auto;
+    height: 350px;
+}
+
+.logos{
+    text-align: center;
+    margin: auto;
+}.logos img{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    min-width: 300px;
+}
+
+.text span{
+    text-transform: uppercase;
+	color: #00cff7;
+	letter-spacing: 4.5px;
+	font-size: 12pt;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.text p{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	color: #829db2;
+    line-height: 40px;
+    margin: 25px 0px 0px 20px;
+}
+
+#page4 .row h2{
+    font-family: 'Source Serif Pro', serif;
+    color: #1f3c47;
+    font-size: 40pt;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-top: 10px;
+}
+
+.text{
+    text-align: left;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 1140px){
+
+    #page4{
+        padding: 0%;
+    }
+
+    #text-left{
+        padding: 30px;
+    }
+
+    #text-right{
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px ){
+    #text-left{
+        padding: 0px;
+    }
+
+    #text-right{
+        padding-right: 0px;
+    }
+
+    .text .row h2{
+        font-size: 20px;
+    }
+
+    .text p{
+        margin-top: 0px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
