@@ -146,14 +146,18 @@ html{
 
 /*-- Pagina 4 --*/
 
-
 #page4{
     padding: 0% 10% 15% 10%;
 }
 
 #container-logos{
     margin: auto;
-    height: 350px;
+    height: 300px;
+}
+
+#container-text{
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 .logos{
@@ -163,7 +167,7 @@ html{
     width: 75%;
     height: auto;
     margin: auto;
-    min-width: 300px;
+    min-width: 220px;
 }
 
 .text span{
@@ -177,17 +181,17 @@ html{
 
 .text p{
     font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	letter-spacing: 1.5px;
 	color: #829db2;
-    line-height: 40px;
-    margin: 25px 0px 0px 20px;
+    line-height: 30px;
+    margin: 40px 0px 0px 20px;
 }
 
-#page4 .row h2{
+#text-left h2{
     font-family: 'Source Serif Pro', serif;
     color: #1f3c47;
-    font-size: 40pt;
+    font-size: 36pt;
     letter-spacing: 1.5px;
     font-weight: 600;
     line-height: 60px;
@@ -199,6 +203,15 @@ html{
     padding-top: 30px;
 }
 
+#text-right{
+    padding-right: 0px;
+}
+
+#text-left,
+#text-right{
+    padding-top: 0px;
+}
+
 @media only screen and (max-width: 1140px){
 
     #page4{
@@ -208,6 +221,16 @@ html{
     #text-left{
         padding: 30px;
     }
+    
+    #text-left h2{
+        font-size: 28px;
+        line-height: 48px;
+    }
+    
+    #text-right p{
+        line-height: 24px;
+    }
+
 
     #text-right{
         padding: 30px;
@@ -215,15 +238,26 @@ html{
 }
 
 @media only screen and (max-width: 767px ){
+    
+    .logos img{
+        width: 65%;
+        margin: 20px 0px;
+    }
+    
     #text-left{
-        padding: 0px;
+        padding: 0px 0px 0px 20px;
+        margin-top: 20px;
+    }
+    
+    #text-left h2{
+        text-align: center;
     }
 
     #text-right{
         padding-right: 0px;
     }
 
-    .text .row h2{
+    .text h2{
         font-size: 20px;
     }
 
@@ -233,6 +267,56 @@ html{
         line-height: 18px;
     }
 }
+
+@media only screen and (max-width: 420px){
+    
+    #container-logos{
+        height: 230px;
+    }
+    
+    .logos{
+        margin: 0px;
+    }
+    
+    .logos img{
+        margin: 0px;
+    }
+    
+    #text-left{
+        margin: 0px;
+    }
+    
+    #text-left span{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    
+    #text-left h2{
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        text-align: left;
+    }
+    
+    #text-right{
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    
+    #text-right p{
+        margin-left: 0px;
+        letter-spacing: 1px;
+        line-height: 16px;
+        text-align: justify;
+    }
+}
+
+
+
+
+/*----------------------------------*/
+
+
 #paginaFeatures{
 	background: url(../img/bgPage2.png);
 	background-position: center;
