@@ -96,6 +96,12 @@ html{
 }
   
 /*-- Pagina 3 --*/
+#pag3{
+    background-color: #D8E0E6;
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 #page3{
     background-color: #D8E0E6;
     padding: 0% 10% 15% 10%;
@@ -142,6 +148,42 @@ html{
     line-height: 30px;
     padding-top: 4%;
 }
+@media screen and (max-width: 767px){
+    .imagem3{
+        display: none;
+    }
+}
+@media screen and (max-width: 384px){
+    .imagem3{
+        display: none;
+    }
+    .texto h2{
+        font-family: 'Source Serif Pro', serif;
+        font-size: 30pt;
+        letter-spacing: 1.5px;
+        color: #1f3c47;
+        margin-bottom: 5%;
+        font-weight: 600;
+    }
+    .texto h6{
+        text-transform: uppercase;
+        color: #00cff7;
+        letter-spacing: 4.5px;
+        font-size: 12pt;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .texto p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        color: #829db2;
+        line-height: 30px;
+        padding-top: 4%;
+    }
+}
+
 
 
 /*-- Pagina 4 --*/
