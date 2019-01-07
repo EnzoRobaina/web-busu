@@ -15,10 +15,6 @@ html{
     margin-top: 0;
 }
 
-#page1{
-    margin-bottom: 10%;
-}
-
 #page1, h2{
     word-break: word;
     font-family: 'Source Serif Pro', serif;
@@ -42,6 +38,7 @@ html{
     grid-template-rows: auto;
     grid-column-gap: 2%;
     grid-template-areas: "left right";
+    margin-bottom: 10%;
 }
 
 #left {
