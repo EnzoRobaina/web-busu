@@ -8,7 +8,7 @@ new fullpage('#fullpage', {
     //Posição do menu lateral
     navigationPosition: 'right',
     //Legenda para as páginas, no menu lateral
-	navigationTooltips: ['Principal', 'Features', 'Sobre', 'Parcerias', 'Aplicação'],
+	// navigationTooltips: ['Principal', 'Features', 'Sobre', 'Parcerias', 'Aplicação'],
 	showActiveTooltip: false,
     slidesNavigation: false,
     //Posição do menu do carousel
