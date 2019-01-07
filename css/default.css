@@ -302,7 +302,7 @@ html{
 
     .text p{
         margin-top: 0px;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 18px;
     }
 }
@@ -331,7 +331,7 @@ html{
     }
     
     #text-left h2{
-        font-size: 22px;
+        font-size: 26px;
         letter-spacing: 1px;
         line-height: 28px;
         text-align: left;
@@ -344,8 +344,7 @@ html{
     
     #text-right p{
         margin-left: 0px;
-        letter-spacing: 1px;
-        line-height: 16px;
+        letter-spacing: 0.5px;
         text-align: justify;
     }
 }
