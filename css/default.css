@@ -1,4 +1,3 @@
-
 html{
     font-family: 'Montserrat', sans-serif;
 }
@@ -501,4 +500,37 @@ html{
 
 }
 
+#page5{
+    height: 100%;
+}
 
+#page5 .direita{
+    background-color: #1f3c47;
+	/* padding: 15% 40% 0 15%; */
+}
+
+#page5 .esquerda{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.appInfoLegenda{
+    letter-spacing: 1.5px;
+	color: #829db2;
+}
+
+#appInfo{
+    padding-left: 15%;
+    padding-top: 15%;
+}
+
+#appInfoMobile{
+    background-color: #1f3c47;
+}
+
+/* media para esconder a exibição desktop para resoluções < 1024px*/
+@media (max-width: 1024px) {
+	#appInfoDesktop{
+		display: none;
+	}
+}
