@@ -523,10 +523,14 @@ html{
 
 .appInfoLegenda{
     letter-spacing: 1.5px;
-	color: #829db2;
+    color: #829db2;
+    text-align: justify;
+    font-size: 130%;
+    line-height: 120%;
 }
 
 #appInfo{
+    padding-right: 15%;
     padding-left: 15%;
     padding-top: 15%;
 }
