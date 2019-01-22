@@ -205,173 +205,114 @@ html{
 /*-- Pagina 4 --*/
 
 #page4{
-    padding: 0% 10% 15% 10%;
+    height: 100%;
 }
 
-#container-logos{
-    margin: auto;
-    height: 300px;
-}
-
-#container-text{
-    margin-right: 0px;
-    padding-right: 0px;
-}
-
-.logos{
-    text-align: center;
-    margin: auto;
-}.logos img{
-    width: 75%;
-    height: auto;
-    margin: auto;
-    min-width: 220px;
-}
-
-.text span{
+#titulo-page4 h6{
     text-transform: uppercase;
-	color: #00cff7;
-	letter-spacing: 4.5px;
-	font-size: 12pt;
-	font-family: 'Montserrat', sans-serif;
+    color: #00cff7;
+    letter-spacing: 4.5px;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
-.text p{
-    font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	letter-spacing: 1.5px;
-	color: #829db2;
-    line-height: 30px;
-    margin: 40px 0px 0px 20px;
-}
-
-#text-left h2{
+#text1-page4 h2{
     font-family: 'Source Serif Pro', serif;
-    color: #1f3c47;
-    font-size: 36pt;
+    font-size: 300%;
     letter-spacing: 1.5px;
-    font-weight: 600;
-    line-height: 60px;
-    margin-top: 10px;
+    color: #1f3c47;
+    font-weight: bold;
+    text-align: center;
 }
 
-.text{
-    text-align: left;
-    padding-top: 30px;
+/* controla a coluna direita */
+#img-ucam{
+    width: 80%;
 }
 
-#text-right{
-    padding-right: 0px;
+#img-prefeitura{
+    width: 80%;
 }
 
-#text-left,
-#text-right{
-    padding-top: 0px;
+#div-imgucam{
+    padding-top: 23%;
+    padding-left: 10%;
+    padding-bottom: 5%;
 }
 
-@media only screen and (max-width: 1140px){
+#div-imgprefeitura{
+    padding-left: 10%
+}
+/* fim do controle da coluna direita*/
 
-    #page4{
-        padding: 0%;
+/* controla a coluna esquerda*/
+#titulo-page4{
+    padding-top: 5%;
+    text-align: right;
+}
+
+#text1-page4{
+    padding-top: 25%;
+    padding-bottom: 3%;
+}
+/* fim do controle da coluna esquerda*/
+
+/* media para resoluções < 768px*/
+@media (max-width: 768px) {
+    #titulo-page4 h6{
+        padding-top: 5%;
     }
 
-    #text-left{
-        padding: 30px;
+    #paragrafoPage4 p{
+        font-size: 110%;
+        text-align: justify;
+        margin-right: 5%;
     }
-    
-    #text-left h2{
-        font-size: 28px;
-        line-height: 48px;
-    }
-    
-    #text-right p{
-        line-height: 24px;
-    }
-
-
-    #text-right{
-        padding: 30px;
+    #text1-page4 h2{
+        font-size: 240%;
+        margin-right:5%;
+        text-align: left;    
     }
 }
 
-@media only screen and (max-width: 767px ){
-    
-    .logos img{
-        width: 65%;
-        margin: 20px 0px;
+/* media para resoluções < 1024px*/
+@media (max-width: 1024px) {
+	.page4coldireita{
+        display: none;
     }
-    
-    #text-left{
-        padding: 0px 0px 0px 20px;
-        margin-top: 20px;
-    }
-    
-    #text-left h2{
+ 
+    #titulo-page4{
         text-align: center;
     }
-
-    #text-right{
-        padding-right: 0px;
+    
+    #text1-page4{
+        padding-top: 15%;
+        padding-bottom: 3%;
+        padding-right: 3%;
     }
 
-    .text h2{
-        font-size: 20px;
+    #paragrafoPage4 p{
+        padding-right: 3%;
     }
 
-    .text p{
-        margin-top: 0px;
-        font-size: 16px;
-        line-height: 18px;
+}
+
+/* media para resoluções >= 1175px*/
+@media (min-width: 1175px) {
+	#div-imgucam{
+        padding-top: 22%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+    #text1-page4{
+        padding-top: 25%;
+        padding-bottom: 3%;
     }
 }
 
-@media only screen and (max-width: 420px){
-    
-    #container-logos{
-        height: 230px;
-    }
-    
-    .logos{
-        margin: 0px;
-    }
-    
-    .logos img{
-        margin: 0px;
-    }
-    
-    #text-left{
-        margin: 0px;
-    }
-    
-    #text-left span{
-        font-size: 12px;
-        margin-top: 0px;
-    }
-    
-    #text-left h2{
-        font-size: 26px;
-        letter-spacing: 1px;
-        line-height: 28px;
-        text-align: left;
-    }
-    
-    #text-right{
-        padding-left: 20px;
-        padding-top: 5px;
-    }
-    
-    #text-right p{
-        margin-left: 0px;
-        letter-spacing: 0.5px;
-        text-align: justify;
-    }
-}
-
-
-
-
-/*----------------------------------*/
+/* fim da pagina 4*/
 
 
 #paginaFeatures{
