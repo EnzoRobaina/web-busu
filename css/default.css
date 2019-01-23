@@ -228,87 +228,295 @@ html{
 
 /* controla a coluna direita */
 #img-ucam{
-    width: 80%;
+    width: 65%;
 }
 
 #img-prefeitura{
-    width: 80%;
+    width: 65%;
 }
 
-#div-imgucam{
-    padding-top: 23%;
-    padding-left: 10%;
+#img-ucam{
+    padding-top:30%;
+    padding-left: 30%;
     padding-bottom: 5%;
 }
 
-#div-imgprefeitura{
-    padding-left: 10%
+#img-prefeitura{
+    padding-left: 30%
 }
 /* fim do controle da coluna direita*/
 
-/* controla a coluna esquerda*/
-#titulo-page4{
-    padding-top: 5%;
-    text-align: right;
-}
-
-#text1-page4{
-    padding-top: 25%;
-    padding-bottom: 3%;
-}
-/* fim do controle da coluna esquerda*/
 
 /* media para resoluções < 768px*/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+    .page4coldireita{
+        display: none;
+    }
+
     #titulo-page4 h6{
-        padding-top: 5%;
+        padding-top:5%;
+        text-align: center;
     }
 
     #paragrafoPage4 p{
-        font-size: 110%;
+        font-size: 95%;
         text-align: justify;
-        margin-right: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
     }
     #text1-page4 h2{
-        font-size: 240%;
-        margin-right:5%;
-        text-align: left;    
+        font-size: 210%;
+        padding-right:5% !important;
+        text-align: center;
+        padding-top: 20%;     
     }
+
 }
 
 /* media para resoluções < 1024px*/
-@media (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 	.page4coldireita{
         display: none;
     }
  
-    #titulo-page4{
+    #titulo-page4 h6{
         text-align: center;
+        padding-top: 5%;
     }
     
-    #text1-page4{
-        padding-top: 15%;
-        padding-bottom: 3%;
-        padding-right: 3%;
+    #text1-page4 h2{
+        padding-top: 25%;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
     #paragrafoPage4 p{
-        padding-right: 3%;
+        padding-top: 3%;
+        padding-right: 5%;
+        padding-left: 5%;
+        text-align: justify;
     }
 
 }
 
-/* media para resoluções >= 1175px*/
-@media (min-width: 1175px) {
-	#div-imgucam{
-        padding-top: 22%;
-        padding-left: 10%;
-        padding-bottom: 5%;
+@media screen and (min-width: 1025px) and (max-width: 1090px){ 
+    #titulo-page4 h6{
+        text-align: right;
     }
 
-    #text1-page4{
-        padding-top: 25%;
+    #img-ucam{
+        padding-top: 45% !important;
+        width: 110% !important;
+    }
+
+    #img-prefeitura{
+        padding-top: 3%;
+        width: 110% !important;
+    }
+
+    .page4coldireita{
+        margin-right: 8%;
+        margin-top: 5%;
+    }
+
+    #text1-page4 h2{
+        padding-top: 40% !important;
+        
+    }
+ }
+
+ @media screen and (min-width: 1091px) and (max-width: 1165px){ 
+    #titulo-page4 h6{
+        text-align: right;
+    }
+    
+    #titulo-page4 h6{
+        text-align: right;
+    }    
+    
+    #img-ucam{
+        padding-top: 40% !important;
+        width: 100% !important;
+    }
+
+    #img-prefeitura{
+        padding-top: 3%;
+        width: 100% !important;
+    }
+
+    .page4coldireita{
+        margin-right: 5%;
+    }
+ }
+
+ @media screen and (min-width: 1166px) and (max-width: 1280px){ 
+    #titulo-page4 h6{
+        text-align: right;
+    }
+    
+    #titulo-page4 h6{
+        text-align: right;
+    }
+   
+    #img-ucam{
+        padding-top: 37% !important;
+        width: 100% !important;
+    }
+
+    #img-prefeitura{
+        padding-top: 3%;
+        width: 100% !important;
+    }
+
+    .page4coldireita{
+        margin-right: 5%;
+    }
+ }
+
+ @media screen and (min-width: 1281px) and (max-width: 1310px){ 
+    #titulo-page4 h6{
+        text-align: right;
+    }
+    
+    #titulo-page4 h6{
+        text-align: right;
+    }
+    
+    #img-ucam{
+        padding-top: 35% !important;
+        width: 100% !important;
+    }
+
+    #img-prefeitura{
+        padding-top: 3%;
+        width: 100% !important;
+    }
+
+    .page4coldireita{
+        margin-right: 5%;
+    }
+ }
+
+ @media screen and (min-width: 1311px) and (max-width: 1400px){ 
+    #titulo-page4 h6{
+        text-align: right;
+    }
+    
+    #img-ucam{
+        padding-top: 35% !important;
+        width: 90% !important;
+    }
+
+    #img-prefeitura{
+        padding-top: 3%;
+        width: 90% !important;
+    }
+
+    .page4coldireita{
+        margin-right: 5%;
+    }
+ }
+
+ @media screen and (min-width: 1401px) and (max-width: 1476px){ 
+    #titulo-page4 h6{
+        text-align: right;
+    }
+    
+    #img-ucam{
+        padding-top: 35% !important;
+        width: 80% !important;
+    }
+
+    #img-prefeitura{
+        padding-top: 3%;
+        width: 80% !important;
+    }
+
+    .page4coldireita{
+        margin-right: 5%;
+    }
+ }
+
+ @media screen and (min-width: 1477px) and (max-width: 1600px){ 
+    #titulo-page4 h6{
+        text-align: right;
+    }
+    
+    #img-ucam{
+        padding-top: 35% !important;
+        width: 80% !important;
+    }
+
+    #img-prefeitura{
+        padding-top: 3%;
+        width: 80% !important;
+    }
+
+    .page4coldireita{
+        margin-right: 5%;
+    }
+
+    #text1-page4 h2{
+        margin-top: 7%;
+    }
+ }
+
+ @media screen and (min-width: 1601px) and (max-width: 1700px){ 
+    #titulo-page4 h6{
+        text-align: right;
+    }
+    
+    #img-ucam{
+        padding-top: 35% !important;
+        width: 75% !important;
+    }
+
+    #img-prefeitura{
+        padding-top: 3%;
+        width: 75% !important;
+    }
+
+    .page4coldireita{
+        margin-right: 5%;
+    }
+
+    #text1-page4 h2{
+        margin-top: 7%;
+    }
+ }
+
+/* media para resoluções >= 1025x*/
+@media (min-width: 1025px) {
+
+    #titulo-page4 h6{
+        padding-top: 5%;
+        text-align: right;
+    }
+
+	#img-ucam{
+        padding-top: 28%;
+        padding-left: 23%;
+        width: 65%;
+    }
+
+    #img-prefeitura{
+        padding-top: 3%;
+        padding-left: 23%;
+        width: 65%
+    }
+
+    #text1-page4 h2{
+        padding-top: 28%;
         padding-bottom: 3%;
+        padding-left:5% ;
+        padding-right:5% ;
+    }
+
+    #paragrafoPage4 p{
+        text-align: justify;
+        padding-left:5%;
+        padding-right:5%;
     }
 }
 
