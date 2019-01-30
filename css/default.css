@@ -696,3 +696,29 @@ html{
 		display: none;
 	}
 }
+
+.goToApp{
+    padding-left: 0 !important;
+    background:transparent !important;
+    color:#00cff7 !important;
+    /* Efeito fade ao passar o mouse sobre */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    /* -- */
+}
+
+.goToApp span{
+    padding-top: 1%;
+    text-transform: uppercase;
+	letter-spacing: 4.5px;
+	font-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.goToApp:hover{
+    color:lightblue !important;
+}

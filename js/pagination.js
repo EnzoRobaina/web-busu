@@ -23,4 +23,8 @@ new fullpage('#fullpage', {
     keyboardScrolling: true,
 	//Setas direcionais passam slides do carousel
     controlArrows: true,
-});
+})
+
+$(".goToApp").on('click', ()=>{
+    fullpage_api.moveTo("Principal")
+})
