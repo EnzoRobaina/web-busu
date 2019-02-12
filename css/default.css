@@ -10,17 +10,9 @@ html{
 
 #page1, h2{
     word-break: word;
-    font-family: 'Source Serif Pro', serif;
-    font-size: 40pt;
-    letter-spacing: 1.5px;
-    color: #1f3c47;
 }
 
 #page1, p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 130%;
-    letter-spacing: 0.2px;
-    color: #829db2;
     margin-top: 0%;
 }
 
@@ -43,12 +35,8 @@ html{
     
 }
 
-#colEsquerda p{
-    padding-top: 5%; 
-}
-
 #colEsquerda h2{
-    padding-top: 30%; 
+    padding-top: 26%; 
 }
 
 #colEsquerda img{
@@ -59,24 +47,19 @@ html{
     text-align: center;
 }
 
-#inicialMobile p{
-    padding-top: 0%;
-    font-size: 120%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
 #inicialMobile{
     display: none;
 }
 
+#p1Texto{
+    text-align: center !important;
+}
 /* media para esconder a exibição desktop para resoluções >= 1175px*/
 @media (min-width: 1175px) {
 	#colDireita{
         margin-top: 5%;
     }
 }
-
 
 /* media para esconder a exibição desktop para resoluções < 1024px*/
 @media (max-width: 1024px) {
@@ -91,23 +74,18 @@ html{
     /* ---------------- */
     
     #inicialMobile h2{
-        padding-top: 17%;
+        padding-top: 14%;
     }
     
     #inicialMobile img{
         padding-top: 4%;
     }
-
-    #inicialMobile p{
-        padding-top: 4%;
-        font-size: 120%;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
     
+    #inicialMobile p{
+        text-align: justify;
+    }
 }
 
-  
 /*-- Pagina 3 --*/
 #pag3{
     background-color: #D8E0E6;
@@ -132,10 +110,8 @@ html{
     
 }
 .texto{
-    
     text-align: left;
     padding-top: 10%;
-    
 }
 .texto h6{
     text-transform: uppercase;
@@ -160,6 +136,7 @@ html{
     }
 }
 .texto h2{
+    text-align: center !important;
     font-family: 'Source Serif Pro', serif;
 	font-size: 40pt;
 	letter-spacing: 1.5px;
@@ -168,19 +145,12 @@ html{
 	font-weight: 600;
 }
 .texto p{
+    text-align: justify !important;
     font-family: 'Montserrat', sans-serif;
     font-size: 130%;
     letter-spacing: 0.2px;
     color: #829db2;
     margin-top: 5%;
-    
-
-    /*font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-	letter-spacing: 1.5px;
-	color: #829db2;
-    line-height: 30px;
-    padding-top: 4%;*/
 }
 @media screen and (max-width: 1025px){
     #page3{
@@ -221,22 +191,11 @@ html{
     }
 }
 
-
-
 /*-- Pagina 4 --*/
 
 #page4{
     height: 100%;
 }
-
-/* #titulo-page4 h6{
-    text-transform: uppercase;
-    color: #00cff7;
-    letter-spacing: 4.5px;
-    font-size: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-} */
 
 #text1-page4 h2{
     padding-top: 20% !important;
@@ -262,7 +221,6 @@ html{
     padding-left: 30%
 }
 /* fim do controle da coluna direita*/
-
 
 /* media para resoluções < 768px*/
 @media screen and (max-width: 768px) {
@@ -336,11 +294,6 @@ html{
     .page4coldireita{
         margin-right: 8%;
         margin-top: 5%;
-    }
-
-    #text1-page4 h2{
-        /* padding-top: 40% !important; */
-        
     }
  }
 
@@ -565,7 +518,6 @@ html{
     font-family: 'Source Serif Pro', serif;
 	font-size: 250%;
 	color: #ffffff;
-	/* letter-spacing: 1.5px; */
 	font-weight: 600;
 	margin-bottom: 3%;
 }
@@ -601,8 +553,6 @@ html{
 	}
 }
 .featuresDesktopImgWrapper{
-	
-	/* background-color:white; */
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 5%;
@@ -629,10 +579,8 @@ html{
 	color: #00cff7;
 	letter-spacing: 1px;
 	font-weight: bold;
-	/* margin: 0 16%; */
 	margin-top: 1%;
 	margin-bottom: 3%;
-	/* line-height: 40px; */
 }
 
 .smLegenda{
@@ -679,7 +627,6 @@ html{
 
 #page5 .direita{
     background-color: #1f3c47;
-	/* padding: 15% 40% 0 15%; */
 }
 
 #page5 .esquerda{
@@ -729,7 +676,7 @@ html{
     padding-top: 1%;
     text-transform: uppercase;
 	letter-spacing: 4.5px;
-	font-size: 100%;
+	font-size: 12pt;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 }
