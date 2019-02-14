@@ -220,7 +220,6 @@ html{
 }
 
 #img-ucam{
-  
     padding-left: 30%;
     padding-bottom: 5%;
 }
@@ -230,16 +229,31 @@ html{
 }
 /* fim do controle da coluna direita*/
 
-/* Ajusta página para telas com altura máxima de 657px */
-@media (max-height: 657px) {
+/* 1024x768 (1024x657) */
+@media (min-height: 637px) and (max-height: 677px) and (max-width: 1024px){
+    #img-appStore{
+        display: block;
+    }
+    #text1-page4{
+        padding-top: 5% !important;
+    }
+
+    #inicialMobile h2{
+        padding-top: 10%;
+    }
+
+}
+
+/* 1366x768 (1366x657) */
+@media (min-height: 637px) and (max-height: 677px){
     #text1-page4 h2{
         padding-top: 7% !important;
-        text-align: center;
-    } 
+    }
 
     #img-ucam{
         padding-top: 17% !important;
     }
+
 }
 
 /* media para resoluções < 768px*/
