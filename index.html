@@ -33,7 +33,13 @@
         <a href="" class="navbar-brand text-light">
             <img width="75" height="45" src="./img/logonovobranco.png">
         </a>
-    </nav> 
+        <button id = "tamanhoNav" type = "button" class = "btn btn-sm btn-danger">Tamanho nav</button>
+    </nav>
+    <script>
+        $("#tamanhoNav").on('click', function(){
+            alert("Tela: " + window.screen.availWidth + "x" + window.screen.availHeight + "\nNav: "+ document.body.clientWidth + "x" + document.body.clientHeight)
+        })
+    </script>  
 
     <div id="fullpage">
         <!-- Página 1 -->
