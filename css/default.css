@@ -502,8 +502,9 @@ html{
 
 /* fim da pagina 4*/
 
-
-/* PAGINA 2 */
+/*************/
+/* PAGINA 2  */
+/*************/
 
 /* MEDIAS DE RESPONSIVIDADE */
 
@@ -564,27 +565,16 @@ html{
 		width:40%
 	}
 }
-/* media para mostrar slides somente para resolucoes < 1024px*/
-@media (min-width: 1024px) {
-	.fp-next{
-		display:none;
-	}
-	.fp-prev{
-		display:none;
-	}
-	.fp-slidesContainer{
-	  display:none;
-	}
-}
-/* media para esconder a exibição desktop para resoluções < 1024px*/
+
 @media (max-width: 1024px) {
-    #featuresMobile{
-        display: block;
-    }
 	.featuresDesktopImgWrapper{
 		display: none;
 	}
+    #featuresMobile{
+        display: block;
+    }
 }
+
 .featuresDesktopImgWrapper{
 	margin-left: 10%;
 	margin-right: 10%;
