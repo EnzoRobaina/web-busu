@@ -505,6 +505,19 @@ html{
 
 /* PAGINA 2 */
 
+/* MEDIAS DE RESPONSIVIDADE */
+
+/* Media para altura 657 */
+@media screen and (max-height: 657px){
+    .featuresDesktopImgWrapper{
+        width: 70% !important;
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+    }
+}
+
+/* ----------------------- */
+
 #featuresMobile{
     display: none;
 }
