@@ -54,6 +54,14 @@ html{
 #p1Texto{
     text-align: center !important;
 }
+
+/* Ajusta página para telas com altura máxima de 657px */
+@media (max-height: 657px) {
+    #colEsquerda h2{
+        padding-top: 12%; 
+    }    
+}
+
 /* media para esconder a exibição desktop para resoluções >= 1175px*/
 @media (min-width: 1175px) {
 	#colDireita{
@@ -221,6 +229,18 @@ html{
     padding-left: 30%
 }
 /* fim do controle da coluna direita*/
+
+/* Ajusta página para telas com altura máxima de 657px */
+@media (max-height: 657px) {
+    #text1-page4 h2{
+        padding-top: 7% !important;
+        text-align: center;
+    } 
+
+    #img-ucam{
+        padding-top: 17% !important;
+    }
+}
 
 /* media para resoluções < 768px*/
 @media screen and (max-width: 768px) {
