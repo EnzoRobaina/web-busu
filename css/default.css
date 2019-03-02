@@ -1,3 +1,26 @@
+.customCard{
+    background-color: transparent;
+    border: 0;
+}
+
+/* Circulos de navegação */
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: #BCC1C4 !important;
+}
+
+#footer{
+    background-color: #006C9B;
+}
+.footerImg{
+    width: 50%;
+}
+#footerCols{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
 /*-- pagina 1 --*/
 html{
     font-family: 'Montserrat', sans-serif;
@@ -792,6 +815,12 @@ html{
 	#appInfoDesktop{
 		display: none;
 	}
+}
+
+@media (min-width: 1024px) and (max-width: 1400px){
+    .footerImg{
+        width: 70%;
+    }
 }
 
 .goToApp{
