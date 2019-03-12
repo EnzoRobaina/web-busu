@@ -23,6 +23,17 @@ new fullpage('#fullpage', {
     keyboardScrolling: true,
 	//Setas direcionais passam slides do carousel
     controlArrows: true,
+    afterLoad: (origin, destination, direction)=>{
+        if(destination.anchor == "Aplicação"){
+            $("#navbar").slideUp("fast")
+            
+        }
+        else if(origin.anchor == "Aplicação"){
+            if($("#navbar").is(":hidden")){ 
+                $("#navbar").slideDown("fast")
+            }
+        }
+    }
 })
 
 $(".goToApp").on('click', ()=>{
