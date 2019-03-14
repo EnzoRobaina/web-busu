@@ -1,7 +1,5 @@
 new fullpage('#fullpage', {
     licenseKey: null,
-	//Menu lateral indicativo das paginas
-    menu: '#myMenu',
     //#href que será mostrado na url ao entrar em uma seção
 	anchors: ['Principal', 'Features', 'Sobre', 'Parcerias', 'Aplicação'],
     navigation: true,
@@ -23,10 +21,9 @@ new fullpage('#fullpage', {
     keyboardScrolling: true,
 	//Setas direcionais passam slides do carousel
     controlArrows: true,
-    afterLoad: (origin, destination, direction)=>{
+    afterLoad: function(origin, destination, direction){
         if(destination.anchor == "Aplicação"){
             $("#navbar").slideUp("fast")
-            
         }
         else if(origin.anchor == "Aplicação"){
             if($("#navbar").is(":hidden")){ 
@@ -35,7 +32,6 @@ new fullpage('#fullpage', {
         }
     }
 })
-
-$(".goToApp").on('click', ()=>{
+$(".goToApp").on('click', function(){
     fullpage_api.moveTo("Principal")
 })
