@@ -25,11 +25,14 @@ new fullpage('#fullpage', {
         if(destination.anchor == "Aplicação"){
             $("#navbar").slideUp("fast")
         }
-        else if(origin.anchor == "Aplicação"){
-            if($("#navbar").is(":hidden")){ 
-                $("#navbar").slideDown("fast")
+        else if(origin){
+            if(origin.anchor == "Aplicação"){
+                if($("#navbar").is(":hidden")){ 
+                    $("#navbar").slideDown("fast")
+                }
             }
         }
+        
     }
 })
 $(".goToApp").on('click', function(){
