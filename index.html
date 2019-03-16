@@ -28,11 +28,25 @@
 </head>
 
 <body>
-    <nav id="navbar" class="navbar sticky-top navbar-expand-md navbar-info">
-        <!-- Logo -->
-        <a href="" class="navbar-brand text-light">
+    <nav id="navbar" class="navbar navbar-dark sticky-top navbar-expand-md navbar-info justify-content-end">
+        <a class="navbar-brand" href="">
             <img width="75" height="45" src="./img/logonovobranco.png">
         </a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id = "navbar-placeholder" class = "ml-auto"></div>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav text-right">
+                <li id = "termosDeUso" class = "nav-item">
+                    <a href = "termos-de-uso" class="nav-link btn btn-outline-light">Termos de uso</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "politica-privacidade" class="nav-link btn btn-outline-light">Política de privacidade</a>
+                </li>
+            </ul>
+        </div>
+    
         <!-- <button id = "tamanhoNav" type = "button" class = "btn btn-sm btn-danger">Tamanho nav</button> -->
     </nav>
 

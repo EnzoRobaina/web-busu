@@ -2,7 +2,21 @@
     background-color: transparent;
     border: 0;
 }
-
+#termosDeUso{
+    margin-right: 2%;
+}
+@media (max-width: 768px) {
+    #navbar-placeholder{
+        display: none;
+    }
+    #termosDeUso{
+        margin-right: 0;
+        margin-bottom: 1%;
+    }
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: black;
+}
 .footerRow{
     height: 20% !important;
 }
