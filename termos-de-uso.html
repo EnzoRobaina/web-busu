@@ -20,9 +20,30 @@
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.js"></script>
-    
 </head>
 <body>
+    <nav id="navbar" class="navbar navbar-dark sticky-top navbar-expand-md navbar-info justify-content-end">
+            <a class="navbar-brand" href="/">
+                <img width="75" height="45" src="./img/logonovobranco.png">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id = "navbar-placeholder" class = "ml-auto"></div>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav text-right">
+                    <li id = "termosDeUso" class = "nav-item">
+                        <a id = "aTermos" href = "termos-de-uso.html" class="nav-link btn btn-outline-light">Termos de uso</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a id = "aPolitica" href = "politica-privacidade.html" class="nav-link btn btn-outline-light">Política de privacidade</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script>
+            $("#aTermos").addClass("active")
+        </script>
     <div class = "container-fluid">
         <div id = "termosTitle" class="text-center">
             <h6 class = "text-center titulo">Termos de uso</h6> 
