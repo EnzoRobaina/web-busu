@@ -462,9 +462,6 @@ html{
     .imagem3{
         display: none;
     }
-    iframe{
-        height:"80%"; 
-    }
     .texto h2{
         font-family: 'Source Serif Pro', serif;
         font-size: 30pt;
