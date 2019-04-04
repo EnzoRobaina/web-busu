@@ -479,6 +479,10 @@ html{
     #page3{
         margin-bottom:13%;
     }
+    .legenda h2{
+        
+        background-color: aliceblue;
+    }
 }
 
 /*-- Pagina 4 --*/
@@ -1034,12 +1038,15 @@ html{
 #appInfoMobile{
     background-color: #1f3c47;
 }
+#appInfoMobileIphone{
+    background-color: #1f3c47;
+}
 
 /* media para esconder a exibição desktop para resoluções < 1024px*/
 @media (max-width: 1024px) {
 	#appInfoDesktop{
 		display: none;
-	}
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1400px){
@@ -1072,4 +1079,9 @@ html{
 
 .goToApp:hover{
     color:lightblue !important;
+}
+@media screen and (max-width: 384px){   
+#appInfoMobile{
+        display: none;
+    }
 }
