@@ -35,6 +35,3 @@ new fullpage('#fullpage', {
         
     }
 })
-$(".goToApp").on('click', function(){
-    fullpage_api.moveTo("Principal")
-})
