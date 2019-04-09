@@ -1037,15 +1037,20 @@ html{
 
 #appInfoMobile{
     background-color: #1f3c47;
+    display: none;
 }
 #appInfoMobileIphone{
     background-color: #1f3c47;
+    display: none;
 }
 
 /* media para esconder a exibição desktop para resoluções < 1024px*/
 @media (max-width: 1024px) {
 	#appInfoDesktop{
-		display: none;
+        display: none;
+    }
+    #appInfoMobile{
+        display: block;
     }
 }
 
@@ -1081,7 +1086,10 @@ html{
     color:lightblue !important;
 }
 @media screen and (max-width: 384px){   
-#appInfoMobile{
+    #appInfoMobile{
         display: none;
+    }
+    #appInfoMobileIphone{
+        display: block;
     }
 }
