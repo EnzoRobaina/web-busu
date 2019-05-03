@@ -360,6 +360,9 @@ html{
 }
 
 /*-- Pagina 3 --*/
+#page3Mobile{
+    display: none;
+}
 
 /* 1280x720 (1280x577) */
 @media (min-height: 557px) and (max-height: 597px){
@@ -369,40 +372,33 @@ html{
 }
 /* 1280x720 (1280x577) e (1280x457) */
 @media (min-height: 469px) and (max-height: 509px), (min-height: 437px) and (max-height: 468px){
-    #pag3 .texto h2{
+    #page3 .texto h2{
         font-size: 200% !important;
     }
-    #pag3 .texto p{
+    #page3 .texto p{
         font-size: 100% !important;
     }
 }
-#pag3{
+#page3{
     background-color: #D8E0E6;
     background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#page3{
-    padding: 0% 10% 7% 10%;
-    
+
+#colunaDire{
+    margin-top: 3%;
+    padding-right: 4%;
 }
-.imagem3{
-    
-    text-align: left;
-    margin: auto;
-}.imagem3 img{
-    width: 80%;
-    height: auto;
-    margin: auto;
-    min-width: 300px;
-    padding-top: 5%;
-    
+#colunaEsq{
+    padding-left: 10%;
 }
 .texto{
     text-align: left;
-    padding-top: 10%;
+    
 }
 .texto h6{
+    text-align: justify ;
     text-transform: uppercase;
 	color: #00cff7;
 	letter-spacing: 4.5px;
@@ -410,7 +406,7 @@ html{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
     margin-bottom: 50px;
-    
+    padding-top: 25%;
 }
 @media screen and (max-width: 767px){
     #page3{
@@ -425,13 +421,14 @@ html{
     }
 }
 .texto h2{
-    text-align: center !important;
+    text-align: left ;
     font-family: 'Source Serif Pro', serif;
 	font-size: 40pt;
 	letter-spacing: 1.5px;
 	color: #1f3c47;
 	margin-bottom: 0px;
-	font-weight: 600;
+    font-weight: 600;
+    
 }
 .texto p{
     text-align: justify !important;
@@ -440,6 +437,7 @@ html{
     letter-spacing: 0.2px;
     color: #829db2;
     margin-top: 5%;
+    
 }
 @media screen and (max-width: 1025px){
 
@@ -459,32 +457,44 @@ html{
 }
 
 @media screen and (max-width: 384px){
-    .imagem3{
-        display: none;
-    }
     .texto h2{
         font-family: 'Source Serif Pro', serif;
-        font-size: 30pt;
+        font-size: 25pt;
         letter-spacing: 1.5px;
         color: #1f3c47;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
         font-weight: 600;
     }
     .texto p{
         font-family: 'Montserrat', sans-serif;
-        font-size: 117%;
+        font-size: 95%;
         letter-spacing: 0.2px;
         color: #829db2;        
-    }
-    #page3{
-        margin-bottom:13%;
     }
     .legenda h2{
         
         background-color: aliceblue;
     }
+    
+    
 }
-
+@media (max-width: 1024px){
+    #page3Desktop{
+        display: none;
+    }
+    #page3Mobile{
+        display: block;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    #page3Mobile h2{
+        text-align: center;
+    }
+    #page3Mobile h6{
+        text-align: center;
+        margin-bottom: 2%
+    }
+}
 /*-- Pagina 4 --*/
 
 #page4{
