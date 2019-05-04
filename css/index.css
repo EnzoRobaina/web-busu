@@ -1,3 +1,7 @@
+.h-50{
+    height: 50% !important;
+}
+
 .customCard{
     background-color: transparent;
     border: 0;
@@ -157,6 +161,7 @@
     .appInfoRow{
         height: 55% !important; 
     }
+
 }
 
 /* 1280x1024 (1280x913) */
@@ -387,17 +392,17 @@ html{
 }
 
 #colunaDire{
-    margin-top: 3%;
+    margin-top: 12%;
     padding-right: 4%;
 }
 #colunaEsq{
     padding-left: 10%;
 }
-.texto{
+ .texto{
     text-align: left;
     
 }
-.texto h6{
+ .texto h6{
     text-align: justify ;
     text-transform: uppercase;
 	color: #00cff7;
@@ -407,6 +412,11 @@ html{
 	font-weight: bold;
     margin-bottom: 50px;
     padding-top: 25%;
+}
+@media (min-width: 1175px){
+    #colunaDire {
+        margin-top: 5%;
+    }
 }
 @media screen and (max-width: 767px){
     #page3{
@@ -420,7 +430,7 @@ html{
         text-align: justify;
     }
 }
-.texto h2{
+    .texto h2{
     text-align: left ;
     font-family: 'Source Serif Pro', serif;
 	font-size: 40pt;
@@ -429,8 +439,8 @@ html{
 	margin-bottom: 0px;
     font-weight: 600;
     
-}
-.texto p{
+} 
+    .texto p{
     text-align: justify !important;
     font-family: 'Montserrat', sans-serif;
     font-size: 130%;
@@ -445,17 +455,36 @@ html{
         margin-bottom:35%;
     }
 }
-@media screen and (max-width: 767px){
-    .imagem3{
-        display: none;
+@media (min-width: 1360px) and (max-width: 1366px) and (min-height: 605px) and (max-height: 675px) {
+    .texto h6{
+        padding-top: 13%;
+    }
+    #colunaDire{
+        margin-top: 2%;
     }
 }
-@media screen and (max-width: 412px){
-    #page3{
-        padding: 0% 10% 0% 10%;
+@media (max-width: 1280px) and (min-height: 637px) and (max-height: 709px) {
+    .texto h6{
+        padding-top: 16%;
     }
 }
-
+@media (max-width: 1280px) and (min-height: 605px) and (max-height: 677px) {
+    .texto h6{
+        padding-top: 15%;
+    }
+    #colunaDire{
+        margin-top: 4%;
+    }
+}
+@media (max-width: 1280px) and (min-height: 557px) and (max-height:629px) {
+    .texto h6{
+        padding-top: 1%;
+    }
+    #colunaDire{
+        margin-top: 2%;
+    }
+    
+}
 @media screen and (max-width: 384px){
     .texto h2{
         font-family: 'Source Serif Pro', serif;
