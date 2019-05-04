@@ -12,6 +12,10 @@
 
 /* Termos de uso */
 
+#aTermos{
+    color: #ffffff;
+}
+
 #termosDeUso{
     margin-right: 2%;
 }
@@ -56,6 +60,11 @@
 
 /* Pol. Privacidade */
 
+#aPolitica{
+  padding-right: 20%;
+  color: #ffffff;
+}
+
 #politicaTitle{
     margin-top: 3%;
 }
@@ -85,6 +94,23 @@
 
 /* ---------------- */
 
+/* Usar aplicativo */
+
+#usarApp{
+    background-color: #00cff7;
+    border-radius: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-right: 80%;
+    padding-left: 16%;
+}
+
+#tab{
+    padding-right: 10%;
+}
+
+/* ---------------- */
+
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
     color: black;
 }
@@ -94,6 +120,33 @@
 
 .appInfoRow{
     height: 80% !important; 
+}
+
+#localize{
+    background-color: #ffffff;
+    width: 55%;
+    height: 40%;
+    margin-left: 23%;
+    margin-top: 12%;
+}
+
+#localize p{
+    letter-spacing: 5px; 
+    color: #00cff7;
+    padding-top: 5%;       
+}
+
+#localize h2{
+    padding-bottom: 2%;
+    font-size: 40pt; 
+    font-weight: bold;     
+}
+
+#usarAppPag5{
+    background-color: #00cff7;
+    border-radius: 28px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 /* 1920x1080 (1920x937 && 1920x969) */
@@ -125,7 +178,7 @@
     }
     
     .appInfoRow{
-        height: 75% !important; 
+        height: 83% !important; 
     }
 }
 
@@ -136,7 +189,7 @@
     }
     
     .appInfoRow{
-        height: 75% !important; 
+        height: 82% !important; 
     }
 }
 
@@ -227,9 +280,11 @@
     }
     
     .appInfoRow{
-        height: 70% !important; 
+        height: 80% !important; 
     }
 }
+
+
 
 
 /* Circulos de navegação */
@@ -251,6 +306,7 @@
     width: 60%;
 }
 /*-- pagina 1 --*/
+
 html{
     font-family: 'Montserrat', sans-serif;
 }
@@ -270,6 +326,7 @@ html{
 
 #page1t{
     height: 100%;
+    margin-bottom:5vh;
 }
 
 .appInfoLegenda{
@@ -284,6 +341,7 @@ html{
 
 #colEsquerda{ 
     padding-left: 3%;
+  
     
 }
 
@@ -304,7 +362,11 @@ html{
 }
 
 #p1Texto{
-    text-align: center !important;
+    text-align: left !important;
+}
+
+#h2page1{
+    text-align: left !important;
 }
 
 /* Ajusta página para telas com altura máxima de 657px */
@@ -345,6 +407,12 @@ html{
         text-align: justify;
     }
 }
+
+/* 1440x860 */
+@media (max-width: 1139px) and (min-height: 780px){
+    
+}
+
 /* 1280x720 (1280x577) */
 @media (max-width: 1024px) and (min-height: 469px) and (max-height: 509px){
     #inicialMobile h2{
@@ -1085,11 +1153,62 @@ html{
 
 /* media para esconder a exibição desktop para resoluções < 1024px*/
 @media (max-width: 1024px) {
-	#appInfoDesktop{
+	#localize{  
+        width: 55%;
+        height: 40%;
+        margin-left: 23%;
+        margin-top: 18%;
+    }
+    
+    #localize p{
+        letter-spacing: 5px; 
+        color: #00cff7;
+        padding-top: 5%;       
+    }
+    
+    #localize h2{
+        padding-bottom: 2%;
+        font-size: 35pt; 
+        font-weight: bold;     
+    }
+    
+    #usarAppPag5{
+        background-color: #00cff7;
+        border-radius: 28px;
+        color: #ffffff;
+        font-weight: bold;
+    } 
+}
+
+/* medias para pagina 5 */
+
+@media (max-width: 762px) {
+    .footerRow{
         display: none;
     }
-    #appInfoMobile{
-        display: block;
+
+    .appInfoRow{
+        height: 100% !important;
+    }
+   
+    #localize{
+        height: 35% !important;
+        margin-right: 23%;
+        margin-top: 53%; 
+    }
+
+    #localize p{
+        padding-top: 17%;
+    }
+    
+    #localize h2{
+        font-size: 150% !important;
+    }
+
+    #botaoUsarApp{
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+        padding-top: 2%;
     }
 }
 
@@ -1098,6 +1217,77 @@ html{
         width: 70%;
     }
 }
+
+@media (max-width: 568px) {
+    #usarAppPag5{
+        font-size: 80% !important;
+    }
+}
+
+@media (max-width: 568px) {
+    #usarAppPag5{
+        font-size: 80% !important;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 762px){
+    #localize{
+        height: 35% !important;
+        margin-right: 23%;
+        margin-top: 30%;  
+    }
+}
+
+@media screen and (min-width: 763px) and (max-width: 903px){
+    #usarAppPag5{
+        font-size: 70% !important;
+    }
+
+    #localize h2{
+        font-size: 190% !important;
+    }
+}
+
+@media (min-width: 1278px) and (min-height: 763px){    
+    .appInfoRow{
+        height: 80% !important;
+    }
+}
+
+@media (min-width: 1024px) and (min-height: 763px){    
+    .appInfoRow{
+        height: 80% !important;
+    }
+}
+
+/* 1366x768 (1366x657) */
+@media (min-width: 1360px) and (max-width: 1366px) and (min-height: 605px) and (max-height: 675px) {    
+    .appInfoRow{
+        height: 80% !important; 
+    }
+}
+
+/* 1280x800 (1280x689 && 1280x657) */
+@media (max-width: 1280px) and (min-width:763px) and (min-height: 637px) and (max-height: 709px) {
+    .appInfoRow{
+        height: 80% !important; 
+    }
+}
+
+/* 1280x720 (1280x609 && 1280x577) */
+@media (max-width: 1280px) and (min-width:569px) and (min-height: 557px) and (max-height:629px) {   
+    .appInfoRow{
+        height: 80% !important; 
+    }
+    #botaoUsarApp{      
+        padding-bottom: 10%;
+    }
+    #localize p{
+        padding-top: 1%;
+    }
+}
+
+/* fim de medias para page 5 */
 
 .goToApp{
     padding-left: 0 !important;
