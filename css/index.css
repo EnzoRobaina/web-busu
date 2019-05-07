@@ -344,7 +344,6 @@ html{
   
     
 }
-
 #colEsquerda h2{
     padding-top: 26%; 
 }
@@ -359,6 +358,8 @@ html{
 
 #inicialMobile{
     display: none;
+    padding-right: 10%;
+    padding-left: 10%
 }
 
 #p1Texto{
@@ -373,7 +374,7 @@ html{
 @media (max-height: 657px) {
     #colEsquerda h2{
         padding-top: 12%; 
-    }    
+    }
 }
 
 /* media para esconder a exibição desktop para resoluções >= 1175px*/
@@ -392,6 +393,7 @@ html{
     }
     #inicialMobile{
         display: block;
+
     }
     /* ---------------- */
     
@@ -431,6 +433,11 @@ html{
         padding-top: 0%;
     }
 }
+@media (max-width: 1152px) and (min-height: 701px) and (max-height: 741px) {
+    #colDireita{
+        margin-top: 2%;
+    }
+}
 
 /*-- Pagina 3 --*/
 #page3Mobile{
@@ -464,7 +471,7 @@ html{
     padding-right: 4%;
 }
 #colunaEsq{
-    padding-left: 10%;
+    padding-left: 3%;
 }
  .texto{
     text-align: left;
@@ -553,6 +560,19 @@ html{
     }
     
 }
+@media (min-height: 637px) and (max-height: 677px) and (max-width: 1024px){
+
+}
+@media screen and (max-width: 415px){
+    .texto p{
+        font-size: 115%;
+    }
+    .texto h2{
+        font-size: 28pt;
+    }
+}
+
+
 @media screen and (max-width: 384px){
     .texto h2{
         font-family: 'Source Serif Pro', serif;
@@ -572,17 +592,27 @@ html{
         
         background-color: aliceblue;
     }
-    
-    
+    .texto h6{
+        
+    }    
+}
+@media (max-height: 597px) and (min-height: 557px){
+    .texto p{
+        font-size: 82%;
+    }
+    .texto h2{
+        font-size: 22pt;
+    }
 }
 @media (max-width: 1024px){
+    .texto p{
+        /*text-align: center !important;*/
+    }
     #page3Desktop{
         display: none;
     }
     #page3Mobile{
         display: block;
-        padding-right: 5%;
-        padding-left: 5%;
     }
     #page3Mobile h2{
         text-align: center;
@@ -592,10 +622,25 @@ html{
         margin-bottom: 2%
     }
 }
+
 /*-- Pagina 4 --*/
+#page4Mobile{
+    display: none;
+}
 
 #page4{
     height: 100%;
+}
+#page4Mobile{
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+#imageUCAM{
+    width: 90%;
+}
+#imagePrefe{
+    width: 90%;
 }
 
 #text1-page4 h2{
@@ -700,8 +745,10 @@ html{
         word-break: break-word;
         padding-top: 0% !important;
     }
-
-    .page4coldireita{
+    #page4Mobile{
+        display: block;
+    }
+    #desktopPage4{
         display: none;
     }
 
@@ -723,7 +770,10 @@ html{
 
 /* media para resoluções < 1024px*/
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-	.page4coldireita{
+    #page4Mobile{
+        display: block;
+    }
+    #desktopPage4{
         display: none;
     }
  
@@ -916,6 +966,20 @@ html{
     }
 
  }
+ @media screen and (max-width: 384px){
+    #imageUCAM{
+        width: 70%;
+    }
+    #imagePrefe{
+        width: 70%;
+    }
+
+ }
+ @media screen and (max-width: 415px){
+    .titulo{
+        margin-bottom: 5%;
+    }
+}
 
 /* media para resoluções >= 1025x*/
 @media (min-width: 1025px) {
