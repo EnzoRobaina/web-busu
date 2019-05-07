@@ -627,7 +627,7 @@ html{
 @media screen and (max-width: 369px){
     .texto h2{
         font-family: 'Source Serif Pro', serif;
-        font-size: 25pt;
+        font-size: 19pt !important;
         letter-spacing: 1.5px;
         color: #1f3c47;
         margin-bottom: 2%;
@@ -635,7 +635,7 @@ html{
     }
     .texto p{
         font-family: 'Montserrat', sans-serif;
-        font-size: 95%;
+        font-size: 80% !important;
         letter-spacing: 0.2px;
         color: #829db2;        
     }
@@ -652,10 +652,10 @@ html{
 }
 @media (max-height: 597px) and (min-height: 557px){
     .texto p{
-        font-size: 80%;
+        font-size: 82%;
     }
     .texto h2{
-        font-size: 20pt;
+        font-size: 22pt;
     }
 }
 
@@ -1029,7 +1029,6 @@ html{
         padding-top: 3%;
     }
  }
-
 
  
 
