@@ -515,7 +515,7 @@ html{
 	font-size: 12pt;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 4%;
     padding-top: 25%;
 }
 @media (min-width: 1175px){
@@ -546,12 +546,12 @@ html{
     
 } 
     .texto p{
-    text-align: justify !important;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 130%;
     letter-spacing: 0.2px;
     color: #829db2;
-    margin-top: 5%;
+    margin-top: 0%;
     
 }
 @media screen and (max-width: 1025px){
@@ -681,8 +681,12 @@ html{
 }
 
 #text1-page4 h2{
-    padding-top: 20% !important;
-    text-align: center;
+    
+    text-align: left;
+}
+
+#text1-page4 h6{
+   
 }
 
 /* controla a coluna direita */
@@ -702,6 +706,56 @@ html{
 #img-prefeitura{
     padding-left: 30%
 }
+
+/* medias para page 4*/
+
+@media (max-width: 1280px) and (min-height: 913px) {
+    #text1-page4 h6{
+        padding-top: 40%;
+    }
+
+    .page4coldireita{
+        padding-top: 8%;
+    }
+}
+
+@media (max-width: 1280px) and (min-height: 849px) {
+    #text1-page4 h6{
+        padding-top: 40%;
+    }
+
+    .page4coldireita{
+        padding-top: 7%;
+    }
+}
+
+@media (max-width: 1280px) and (min-width:569px) and (min-height: 557px) and (max-height:629px) {
+    #text1-page4 h6{
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    #page4Mobile{
+        padding-top: 5%;
+    }
+
+    #imageUCAM{
+        padding-top: 5%; 
+        padding-bottom: 10%;
+    }
+
+}
+
+@media screen and (max-width: 568px){
+    #page4Mobile{
+        padding-top: 5%;
+    }
+
+}
+
+/* fim de medias para page 4*/
 
 /* ******************************* */
 /* Medias para alturas específicas */
@@ -743,6 +797,7 @@ html{
     }
     #paragrafoPage4 p{
         margin-top: 0 !important;
+        text-align: left;
     }
     #img-ucam{
         padding-top: 8% !important;
@@ -771,6 +826,7 @@ html{
     #paragrafoPage4 p{
         padding-top: 0% !important;
         font-size: 110% !important;
+        text-align: left;
     }
 
 }
@@ -795,7 +851,7 @@ html{
     }
 
     #paragrafoPage4 p{
-        text-align: justify;
+        text-align: left;
         /* padding-right: 5%; */
     }
     #text1-page4 h2{
@@ -822,14 +878,14 @@ html{
     #text1-page4 h2{
         padding-top: 10%;
         padding-right: 5%;
-        padding-left: 5%;
+        padding-left: 0%;
     }
 
     #paragrafoPage4 p{
         padding-top: 3%;
         padding-right: 5%;
-        padding-left: 5%;
-        text-align: justify;
+        padding-left: 0%;
+        text-align: left;
     }
 
 }
@@ -1043,27 +1099,27 @@ html{
     }
 
 	#img-ucam{
-        padding-top: 24%;
-        padding-left: 23%;
+        padding-top: 33%;
+        padding-left: 0%;
         width: 65%;
     }
 
     #img-prefeitura{
         padding-top: 3%;
-        padding-left: 23%;
+        padding-left: 0%;
         width: 65%
     }
 
     #text1-page4 h2{
-        padding-top: 14%;
+        padding-top: 0%;
         padding-bottom: 3%;
-        padding-left:5% ;
+        padding-left:0% ;
         padding-right:5% ;
     }
 
     #paragrafoPage4 p{
-        text-align: justify;
-        padding-left:5%;
+        text-align: left;
+        padding-left:0%;
         padding-right:5%;
     }
 }

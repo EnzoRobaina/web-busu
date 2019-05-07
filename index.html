@@ -51,7 +51,7 @@
             </ul>
         </div>
     
-      <!-- <button id = "tamanhoNav" type = "button" class = "btn btn-sm btn-danger">Tamanho nav</button>  -->
+      <button id = "tamanhoNav" type = "button" class = "btn btn-sm btn-danger">Tamanho nav</button>  
     </nav>
 
     <div id="fullpage">
@@ -223,15 +223,29 @@
                 <!-- Div ativa para Desktop -->
                 <div id="desktopPage4" class="container-fluid h-100">
                     <div class="row h-100">
+                        
+
                         <!-- coluna da esquerda -->
-                        <div style = "padding-right: 10%;padding-left: 10%;" class="col page4colesquerda">
+                        <div style="padding-left: 24vh;" class="col page4coldireita">
+                            
+                            <img id="img-ucam" src="img/logos_ucam.png">
+                            
+                            <img id="img-prefeitura" src="img/layout-novo-prefeitura.png">
+                            
+                        </div>
+
+                        <!-- coluna da direita -->
+                        <div style = "padding-right: 10%;margin-right: 10vh;" class="col page4colesquerda">
+                           
                             <div class = "texto" id="text1-page4">
+                                <h6>Parceria</h6>
+
                                 <h2>
                                     União entre o saber e a tradição
                                 </h2>
                             </div>
 
-                            <div style="padding-top: 0" id="paragrafoPage4" class="texto text-center">
+                            <div style="padding-top: 0;" id="paragrafoPage4" class="texto text-center">
                                 <p>
                                     O aplicativo foi criado e idealizado pelos professores e 
                                     alunos do Curso Superior de Tecnologia em Análise e 
@@ -240,15 +254,6 @@
                                 </p>
                             </div>
 
-                        </div>
-
-                        <!-- coluna da direita -->
-                        <div class="col page4coldireita">
-                            
-                            <img id="img-ucam" src="img/logos_ucam.png">
-                            
-                            <img id="img-prefeitura" src="img/pmcg-preto.png">
-                            
                         </div>
                     </div>
                 </div> <!-- Fim da Div para Desktop-->
@@ -270,7 +275,7 @@
                 <div class="text-center">
                     <img id="imageUCAM" src="img/logos_ucam.png">
                             
-                    <img id="imagePrefe" src="img/pmcg-preto.png">
+                    <img id="imagePrefe" src="img/layout-novo-prefeitura.png">
                 </div> 
                 </div>
             </div>
@@ -316,9 +321,9 @@
             </div>
         </div>
     <script src="./js/pagination.js"></script>
-     <!-- <script>
+     <script>
         $("#tamanhoNav").on('click', function(){
             alert("Tela: " + window.screen.availWidth + "x" + window.screen.availHeight + "\nNav: "+ document.body.clientWidth + "x" + document.body.clientHeight)
         })
-    </script>  -->
+    </script> 
 </html>
