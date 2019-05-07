@@ -752,8 +752,11 @@ html{
     #page4Mobile{
         padding-top: 5%;
     }
-
 }
+
+
+
+
 
 /* fim de medias para page 4*/
 
@@ -1099,7 +1102,7 @@ html{
     }
 
 	#img-ucam{
-        padding-top: 33%;
+        padding-top: 20%;
         padding-left: 0%;
         width: 65%;
     }
