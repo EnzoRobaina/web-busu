@@ -320,6 +320,10 @@ html{
     word-break: word;
 }
 
+#img-inicial{
+    width: 100%;
+}
+
 #page1, p {
     margin-top: 0%;
 }
@@ -398,7 +402,7 @@ html{
     /* ---------------- */
     
     #inicialMobile h2{
-        padding-top: 14%;
+        padding-top: 6%;
     }
     
     #inicialMobile img{
@@ -408,6 +412,10 @@ html{
     #inicialMobile p{
         text-align: justify;
     }
+    #img-inicial{
+        width: 80%;
+    }
+
 }
 
 /* 1440x860 */
@@ -438,6 +446,25 @@ html{
         margin-top: 2%;
     }
 }
+@media screen and (max-width: 369px){
+    #img-inicial{
+        width: 70%;
+    }
+    #inicialMobile h2{
+        padding-top: 4%;
+    }
+    #img-play{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 370px){
+    #img-inicial{
+        width: 80%;
+    }
+    #img-play{
+        width: 80%;
+    }
+ }
 
 /*-- Pagina 3 --*/
 #page3Mobile{
@@ -465,6 +492,9 @@ html{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#img-cidade{
+    width: 100%;
+}
 
 #colunaDire{
     margin-top: 12%;
@@ -481,7 +511,7 @@ html{
     text-align: justify ;
     text-transform: uppercase;
 	color: #00cff7;
-	letter-spacing: 4.5px;
+	letter-spacing: 5px; 
 	font-size: 12pt;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
@@ -571,9 +601,30 @@ html{
         font-size: 28pt;
     }
 }
+@media (max-width: 1024px){
+    .texto p{
+        /*text-align: center !important;*/
+    }
+    #page3Desktop{
+        display: none;
+    }
+    #page3Mobile{
+        display: block;
+    }
+    #page3Mobile h2{
+        text-align: center;
+    }
+    #page3Mobile h6{
+        text-align: center;
+        margin-bottom: 2%;
+        padding-top: 0%;
+    }
+    #img-cidade{
+        width: 90%;
+    }
+}
 
-
-@media screen and (max-width: 384px){
+@media screen and (max-width: 369px){
     .texto h2{
         font-family: 'Source Serif Pro', serif;
         font-size: 25pt;
@@ -592,6 +643,9 @@ html{
         
         background-color: aliceblue;
     }
+    #img-cidade{
+        width: 70%;
+    }
     .texto h6{
         
     }    
@@ -604,24 +658,7 @@ html{
         font-size: 22pt;
     }
 }
-@media (max-width: 1024px){
-    .texto p{
-        /*text-align: center !important;*/
-    }
-    #page3Desktop{
-        display: none;
-    }
-    #page3Mobile{
-        display: block;
-    }
-    #page3Mobile h2{
-        text-align: center;
-    }
-    #page3Mobile h6{
-        text-align: center;
-        margin-bottom: 2%
-    }
-}
+
 
 /*-- Pagina 4 --*/
 #page4Mobile{
@@ -966,20 +1003,36 @@ html{
     }
 
  }
- @media screen and (max-width: 384px){
+ @media (max-width: 1024px){
     #imageUCAM{
-        width: 70%;
+        width: 80%;
     }
     #imagePrefe{
-        width: 70%;
+        width: 80%;
     }
-
  }
+
  @media screen and (max-width: 415px){
     .titulo{
         margin-bottom: 5%;
     }
 }
+
+@media screen and (max-width: 384px){
+    #imageUCAM{
+        width: 55%;
+    }
+    #imagePrefe{
+        width: 55%;
+    }
+    .parceria{
+        padding-top: 3%;
+    }
+ }
+
+ 
+
+ 
 
 /* media para resoluções >= 1025x*/
 @media (min-width: 1025px) {
