@@ -1,3 +1,16 @@
+.btn-azul-arrendodado{
+    background-color: #00cff7;
+    border-radius: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn-azul-arrendodado:hover{
+    color: #ffffff;
+}
+
 .h-50{
     height: 50% !important;
 }
@@ -21,6 +34,20 @@
 }
 
 @media (max-width: 768px) {
+    .navbar-brand{
+
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    #usarAppLi{
+        text-align: center !important;
+    }
+    #navbar{
+        padding-left: 1% !important;
+        padding-right: 1% !important;
+    }
     #navbar-placeholder{
         display: none;
     }
@@ -61,7 +88,6 @@
 /* Pol. Privacidade */
 
 #aPolitica{
-  padding-right: 20%;
   color: #ffffff;
 }
 
@@ -312,6 +338,8 @@ html{
 }
 
 #navbar{
+    padding-left: 20vh;
+    padding-right: 5vh;
     background:#416c94;
     color: white;
 }
