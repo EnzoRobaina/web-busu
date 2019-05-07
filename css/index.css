@@ -652,10 +652,10 @@ html{
 }
 @media (max-height: 597px) and (min-height: 557px){
     .texto p{
-        font-size: 82%;
+        font-size: 80%;
     }
     .texto h2{
-        font-size: 22pt;
+        font-size: 20pt;
     }
 }
 
@@ -1029,6 +1029,7 @@ html{
         padding-top: 3%;
     }
  }
+
 
  
 
