@@ -623,6 +623,7 @@ html{
 }
 @media screen and (max-width: 415px){
     .texto p{
+        text-align: center !important;
         font-size: 115%;
     }
     .texto h2{
@@ -631,6 +632,7 @@ html{
 }
 @media (max-width: 1024px){
     .texto p{
+        text-align: center !important;
         /*text-align: center !important;*/
     }
     #page3Desktop{
@@ -665,7 +667,8 @@ html{
         font-family: 'Montserrat', sans-serif;
         font-size: 80% !important;
         letter-spacing: 0.2px;
-        color: #829db2;        
+        color: #829db2;
+        text-align: center !important;        
     }
     .legenda h2{
         
@@ -681,6 +684,7 @@ html{
 @media (max-height: 597px) and (min-height: 557px){
     .texto p{
         font-size: 82%;
+        text-align: center !important;
     }
     .texto h2{
         font-size: 22pt;
@@ -1209,7 +1213,7 @@ html{
 @media screen and (max-width: 768px) {
 	#paginaFeatures{
 		background: url(../img/bgPage2.png);
-		background-size: cover;
+		/* background-size: cover;*/
 		background-repeat: no-repeat;
 	}
 }
