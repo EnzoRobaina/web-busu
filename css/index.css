@@ -622,6 +622,9 @@ html{
 
 }
 @media screen and (max-width: 415px){
+    ul{
+        display:none;
+    }
     .texto p{
         text-align: center !important;
         font-size: 115%;
@@ -651,6 +654,9 @@ html{
     }
     #img-cidade{
         width: 90%;
+    }
+    ul{
+        display:none;
     }
 }
 
