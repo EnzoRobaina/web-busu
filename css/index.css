@@ -1218,9 +1218,10 @@ html{
 
 @media screen and (max-width: 768px) {
 	#paginaFeatures{
-		background: url(../img/bgPage2.png);
-		/* background-size: cover;*/
-		background-repeat: no-repeat;
+		/*background: url(../img/bgPage2.png);*/
+		background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #0088b7;
 	}
 }
 .titulo{
