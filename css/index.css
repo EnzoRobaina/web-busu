@@ -652,7 +652,7 @@ html{
     }
 }
 
-@media screen and (max-width: 369px){
+@media screen and (max-width: 384px){
     .texto h2{
         font-family: 'Source Serif Pro', serif;
         font-size: 19pt !important;
