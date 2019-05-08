@@ -1210,19 +1210,22 @@ html{
 
 #paginaFeatures{
     height: 100% !important;
-	background: url(../img/bgPage2.png);
+	/*background: url(../img/bgPage2.png);*/
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-color: #0088b7;
 }
 
 @media screen and (max-width: 768px) {
 	#paginaFeatures{
-		/*background: url(../img/bgPage2.png);*/
+		
 		background-size: cover;
         background-repeat: no-repeat;
         background-color: #0088b7;
-	}
+        
+    }
+    
 }
 .titulo{
     padding-top: 1%;
