@@ -582,6 +582,7 @@ html{
     margin-top: 5%;
     
 }
+
 @media screen and (max-width: 1025px){
 
     #page3{
@@ -661,6 +662,7 @@ html{
 }
 
 @media screen and (max-width: 384px){
+
     .texto h2{
         font-family: 'Source Serif Pro', serif;
         font-size: 19pt !important;
@@ -683,9 +685,7 @@ html{
     #img-cidade{
         width: 70%;
     }
-    .texto h6{
-        
-    }    
+
 }
 @media (max-height: 597px) and (min-height: 557px){
     .texto p{
@@ -781,7 +781,7 @@ html{
 
     #imageUCAM{
         padding-top: 0%; 
-        padding-bottom: 3%;
+        padding-bottom: 6%;
     }
 
 }
@@ -1210,7 +1210,7 @@ html{
 
 #paginaFeatures{
     height: 100% !important;
-	/*background: url(../img/bgPage2.png);*/
+	background: url(../img/bgPage2.png);
 	background-position: center;
 	background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1219,7 +1219,7 @@ html{
 
 @media screen and (max-width: 768px) {
 	#paginaFeatures{
-		
+		background: none;
 		background-size: cover;
         background-repeat: no-repeat;
         background-color: #0088b7;
@@ -1416,7 +1416,7 @@ html{
     }
 
     #localize p{
-        padding-top: 17%;
+        padding-top: 14%;
     }
     
     #localize h2{
@@ -1502,6 +1502,11 @@ html{
     }
     #localize p{
         padding-top: 1%;
+    }
+}
+@media screen and (max-width: 384px){
+    .legenda{
+        font-size: 19pt !important;
     }
 }
 
