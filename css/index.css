@@ -1,3 +1,52 @@
+/* oculta htmls de telas landscape */
+#inicialLands{
+    display: none;
+}
+/* Media para telas em Landscape */
+@media screen and (min-width:320px) and (max-width:850px) and (orientation:landscape) {
+    /* Landscape da Page 1*/
+    #page1t{
+        display: none;
+    }
+    #inicialLands{
+        display: block;
+    }
+    .texto h2{
+        font-size: 22pt !important;
+        text-align: left !important;
+    }
+    .texto p{
+        font-size: 90% !important;
+        text-align: left !important;
+        margin-top: 3% !important;
+    }
+    #colDireita{
+        margin-top: 3% !important;
+    }
+    #colEsquerda{
+        margin-left: 3% !important;
+    }
+    #colEsquerda img{
+        padding-top: 0% !important;
+    }
+    /* #page5{
+        display : none;
+    } */
+
+    /* #paginaFeatures{
+        display: none;
+    } */
+    /* #page3{
+        display: none;
+    } */
+    /* #page4{
+        display: none;
+    } */
+
+    
+    
+}
+
 .btn-azul-arrendodado{
     background-color: #00cff7;
     border-radius: 28px;
@@ -636,7 +685,7 @@ html{
 }
 @media (max-width: 1024px){
     .texto p{
-        text-align: center !important;
+        text-align: center ;
         /*text-align: center !important;*/
     }
     #page3Desktop{
