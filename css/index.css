@@ -2,6 +2,12 @@
 #inicialLands{
     display: none;
 }
+#page3Lands{
+    display: none;
+}
+#page4Lands{
+    display: none;
+} 
 /* Media para telas em Landscape */
 @media screen and (min-width:320px) and (max-width:850px) and (orientation:landscape) {
     /* Landscape da Page 1*/
@@ -29,22 +35,83 @@
     #colEsquerda img{
         padding-top: 0% !important;
     }
+    /* Landscape para a Page 2 */
+    #imgs-page2{
+        width: 50% !important;
+    }
+    /* #paginaFeatures{
+        display: none;
+    }  */
+    #paginaFeatures{
+		background: none !important;
+		background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-color: #0088b7 !important;
+        
+    }
+    .tituloFeatures{
+        padding-top: 1% !important;
+    }
+    .legenda{
+        font-size: 22pt !important;
+    }
+    
+    /* Landscape da Page 3*/
+    #page3Mobile{
+        display: none !important;
+    }
+    #page3Lands{
+        display: block;
+    }
+    #page3{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .texto h6{
+        margin-bottom: 5% !important;
+        padding-top: 0% !important;
+        font-size: 10pt !important;
+    }
+    #col3Direita{
+        margin-top: 6% !important;
+        padding-right: 4% !important;
+    }
+    /* Landscape para Page 4 */
+    #page4{
+        display: none;
+    }
+    #page4Lands{
+        display: block;
+    } 
+    #col4Esquerda{
+        padding-left: 3%;
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+    #imagemUCAM{
+        padding-bottom: 6% !important;
+    }
+    #col4Direita{
+        margin-top: 4%;
+    }
+
+    /* alterações para o modo landscape da page 5 */
     /* #page5{
         display : none;
     } */
-
-    /* #paginaFeatures{
+    #localize{
+        margin-top: 23% !important;
+    }
+    #localize p{
+        padding-top: 2% !important;
+        margin-bottom: 1% !important;
+    }
+    #localize h2{
+        padding-bottom: 0% !important;
+    }
+    #footer{
         display: none;
-    } */
-    /* #page3{
-        display: none;
-    } */
-    /* #page4{
-        display: none;
-    } */
-
-    
-    
+    }     
 }
 
 .btn-azul-arrendodado{
@@ -603,7 +670,7 @@ html{
 @media screen and (max-width: 767px){
     #page3{
         padding-right: 10%;
-        padding-left: 10% !important;
+        padding-left: 10%;
     }
     #page3 .texto h2{
         text-align: center;
