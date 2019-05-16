@@ -12,8 +12,10 @@
 @media screen and (min-width:320px) and (max-width:850px) and (orientation:landscape) {
     /* Altera o tamanho da nav */
     #img-nav{
-        width: 65px !important;
-        height: 35px !important;
+        display: none;
+    }
+    .navbar-toggler{
+        font-size: 1rem;
     }
     /* Landscape da Page 1*/
     #page1t{
@@ -42,7 +44,7 @@
     }
     /* Landscape para a Page 2 */
     #imgs-page2{
-        width: 50% !important;
+        width: 40% !important;
     }
     /* #paginaFeatures{
         display: none;
@@ -60,7 +62,13 @@
     .legenda{
         font-size: 18pt !important;
     }
-    
+    .subTitulo{
+        font-size: 130% !important;
+        margin-bottom: 1% !important;
+    }
+    .smLegenda{
+        font-size: 90% !important;
+    }
     /* Landscape da Page 3*/
     #page3Mobile{
         display: none !important;
@@ -122,6 +130,9 @@
     }
     #footer{
         display: none;
+    }
+    .nav-link{
+        /* padding: 0rem 0rem; */
     }     
 }
 
