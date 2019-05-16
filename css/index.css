@@ -17,6 +17,9 @@
     .navbar-toggler{
         font-size: 1rem;
     }
+    .navbar{
+        padding: 0.2rem !important;
+    }
     /* Landscape da Page 1*/
     #page1t{
         display: none;
