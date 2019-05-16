@@ -10,6 +10,10 @@
 } 
 /* Media para telas em Landscape */
 @media screen and (min-width:320px) and (max-width:850px) and (orientation:landscape) {
+    /* #navbar{
+        width: 50%;
+        margin: 0 auto;
+    } */
     /* Landscape da Page 1*/
     #page1t{
         display: none;
@@ -18,11 +22,11 @@
         display: block;
     }
     .texto h2{
-        font-size: 22pt !important;
+        font-size: 18pt !important;
         text-align: left !important;
     }
     .texto p{
-        font-size: 90% !important;
+        font-size: 70% !important;
         text-align: left !important;
         margin-top: 3% !important;
     }
@@ -53,7 +57,7 @@
         padding-top: 1% !important;
     }
     .legenda{
-        font-size: 22pt !important;
+        font-size: 18pt !important;
     }
     
     /* Landscape da Page 3*/
@@ -68,7 +72,7 @@
         padding-right: 0% !important;
     }
     .texto h6{
-        margin-bottom: 5% !important;
+        margin-bottom: 3% !important;
         padding-top: 0% !important;
         font-size: 10pt !important;
     }
@@ -87,6 +91,12 @@
         padding-left: 3%;
         margin-top: 4%;
         margin-left: 3%;
+    }
+    #imageUCAM{
+        width: 70% !important;
+    }
+    #imagePrefe{
+        width: 70% !important;
     }
     #imagemUCAM{
         padding-bottom: 6% !important;
