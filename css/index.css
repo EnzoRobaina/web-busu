@@ -23,11 +23,11 @@
         display: block;
     }
     .texto h2{
-        font-size: 18pt !important;
+        font-size: 15pt !important;
         text-align: left !important;
     }
     .texto p{
-        font-size: 70% !important;
+        font-size: 65% !important;
         text-align: left !important;
         margin-top: 3% !important;
     }
@@ -75,7 +75,7 @@
     .texto h6{
         margin-bottom: 3% !important;
         padding-top: 0% !important;
-        font-size: 10pt !important;
+        font-size: 9pt !important;
     }
     #col3Direita{
         margin-top: 6% !important;
@@ -94,10 +94,10 @@
         margin-left: 3%;
     }
     #imageUCAM{
-        width: 70% !important;
+        width: 60% !important;
     }
     #imagePrefe{
-        width: 70% !important;
+        width: 60% !important;
     }
     #imagemUCAM{
         padding-bottom: 6% !important;
