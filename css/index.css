@@ -2,15 +2,20 @@
 #inicialLands{
     display: none;
 }
+#telaFeaturesLandscape{
+    display: none;
+}
 #page3Lands{
     display: none;
 }
 #page4Lands{
     display: none;
 } 
+
+
 /* Media para telas em Landscape */
 @media screen and (min-width:320px) and (max-width:850px) and (orientation:landscape) {
-    /* Altera o tamanho da nav */
+
     #img-nav{
         display: none;
     }
@@ -45,13 +50,12 @@
     #colEsquerda img{
         padding-top: 0% !important;
     }
+
     /* Landscape para a Page 2 */
+
     #imgs-page2{
-        width: 40% !important;
+        width: 45% !important;
     }
-    /* #paginaFeatures{
-        display: none;
-    }  */
     #paginaFeatures{
 		background: none !important;
 		background-size: cover !important;
@@ -66,16 +70,24 @@
         font-size: 18pt !important;
     }
     .subTitulo{
-        font-size: 130% !important;
-        margin-bottom: 1% !important;
+        margin-bottom: 4% !important;
     }
     .smLegenda{
-        font-size: 90% !important;
+        font-size: 100% !important;
     }
+    /* oculta e exibe Landscape e portrait */
+    #telaFeaturesPortrait{
+        display: none;
+    }
+    #telaFeaturesLandscape{
+        display: block;
+    }
+
     /* Landscape da Page 3*/
     #page3Mobile{
         display: none !important;
     }
+
     #page3Lands{
         display: block;
     }
@@ -118,25 +130,20 @@
     }
 
     /* alterações para o modo landscape da page 5 */
-    /* #page5{
-        display : none;
-    } */
     #localize{
         margin-top: 23% !important;
+        height: 43% !important;
     }
     #localize p{
         padding-top: 2% !important;
-        margin-bottom: 1% !important;
-    }
-    #localize h2{
-        padding-bottom: 0% !important;
+        margin-bottom: 0% !important;
     }
     #footer{
         display: none;
     }
-    .nav-link{
-        /* padding: 0rem 0rem; */
-    }     
+    #botaoUsarApp{
+        padding-top: 0% !important;
+    }
 }
 
 .btn-azul-arrendodado{
@@ -1551,7 +1558,7 @@ html{
     }
    
     #localize{
-        height: 35% !important;
+        height: 35%;
         margin-right: 23%;
         margin-top: 53%; 
     }
@@ -1591,7 +1598,7 @@ html{
 
 @media screen and (min-width: 400px) and (max-width: 762px){
     #localize{
-        height: 35% !important;
+        height: 35%;
         margin-right: 23%;
         margin-top: 30%;  
     }
