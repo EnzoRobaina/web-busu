@@ -1,3 +1,4 @@
+
 /* oculta htmls de telas landscape */
 #inicialLands{
     display: none;
@@ -159,7 +160,7 @@
     color: #ffffff;
 }
 
-.h-50{
+zh-50{
     height: 50% !important;
 }
 
