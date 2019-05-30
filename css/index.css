@@ -1,4 +1,7 @@
-
+a:hover {
+    color: white !important;
+    
+  }
 /* oculta htmls de telas landscape */
 #inicialLands{
     display: none;
@@ -160,7 +163,7 @@
     color: #ffffff;
 }
 
-zh-50{
+.h-50{
     height: 50% !important;
 }
 
