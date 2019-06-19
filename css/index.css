@@ -14,7 +14,11 @@ a:hover {
 }
 #page4Lands{
     display: none;
-} 
+}
+
+#aTermos.active, #aPolitica.active{
+    color: black;
+}
 
 
 /* Media para telas em Landscape */
